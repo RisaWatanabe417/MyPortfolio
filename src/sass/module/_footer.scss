@@ -1,0 +1,26 @@
+footer {
+  .sns-area{
+    padding-top: 55px;
+    display: flex;
+    ul {
+      margin: auto;
+      li {
+        display: inline-block;
+        a {
+          img {
+            height: 35px;
+            width: auto;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+  .copy-area {
+    padding: 40px;
+    p {
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+}

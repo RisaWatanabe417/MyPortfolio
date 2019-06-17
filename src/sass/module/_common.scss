@@ -1,0 +1,70 @@
+body {
+  font-family: '游ゴシック',YuGothic,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,sans-serif;
+  background: #ECECEC;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+* a:hover {
+  opacity: 0.5;
+}
+
+* h1 {
+  color: #6E6E6E;
+  text-align: center;
+}
+
+* .section-title {
+  font-weight: normal;
+  font-size: 40px;
+  margin: 90px 0 40px 0;
+}
+* .section-title::after {
+  content: attr(data-subtitle);
+  display: block;
+  font-size: 12px;
+}
+
+* h2 {
+  font-size: 20px;
+  color: #6E6E6E;
+  font-weight: normal;
+}
+
+* h3 {
+  font-size: 18px;
+  color: #6E6E6E;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+* p {
+  font-size: 14px;
+  color: #6E6E6E;
+  line-height: 2.5;
+  letter-spacing: 4px;
+}
+
+* .btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 40px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #6E6E6E;
+  background: #ECECEC;
+  transition: .4s;
+  border: 0.5px solid #6E6E6E;
+  cursor: pointer;
+}
+  
+* .btn:hover {
+  background: #6E6E6E;
+  color: white;
+}

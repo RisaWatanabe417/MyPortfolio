@@ -1,0 +1,56 @@
+main {
+  padding: 0 145px;
+  .works {
+    text-align: center;
+    .works-tile {
+      display: flex;
+      img {
+      width: 100%;
+      height: auto;
+      }
+    }
+  }
+  .about {
+    .profile {
+      display: flex;
+      .profile-message {
+        width: 50%;
+        margin-right: 50px;
+        text-align: center;
+        .profile-text {
+          margin-top: 15px;
+        }
+      }
+      .profile-image {
+        width: 50%;
+        margin: auto 0;
+        img {
+          height: 300px;
+          width: auto;
+          border-radius: 50%;
+          border: 10px solid #fff;
+        }
+      }
+    }
+  }
+  .skill {
+    .skill-html {
+      img {
+        height: 60px;
+        width: auto;
+      }
+    }
+    .skill-css {
+      img{
+        height: 70px;
+        width: auto;
+      }
+    }
+    .skill-js {
+      img {
+        height: 60px;
+        width: auto;
+      }
+    }
+  }
+}
