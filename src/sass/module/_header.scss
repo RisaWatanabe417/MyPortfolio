@@ -1,11 +1,4 @@
 header {
-  text-align: right;
-  padding: 10px;
-  background-image: url(/img/hero_image.jpg);
-  height: 590px;
-  background-size: cover;
-  background-position: 50% 50%;
-  margin-bottom: 60px;
   .header-area {
     background: #ffffff;
     position: fixed;
@@ -30,27 +23,45 @@ header {
         height: 100%;
         li {
           display: inline-block;
-          margin-right: 20px;
-          // a {
-          //   position: relative;
-          //   display: inline-block;
-          //   text-decoration: none;
-          //   color: inherit;
-          // }
-          a::after {
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            content: '';
-            width: 100%;
-            height: 2px;
-            background: #8dc8d7;
-            transform: scale(0, 1);
-            transform-origin: center top;
-            transition: transform .3s;
+          margin-right: 14px;
+          .hover-1{
+            position: relative;
+            background: #fff;
+            &::before{
+              content: attr(data);
+              display: block;
+            }
+            &::after{
+              content: '';
+              display: block;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              left: 0;
+              margin: auto;
+              justify-content: center;
+              height: 3px;
+              background-color: #fa8383;
+              transition: width 300ms;
+              width: 0;
+            }
+            &:hover{
+              &::after{
+                width: 100%;
+              }
+            }
           }
         }
       }
     }
+  }
+  .hero-area {
+    background-image: url(/img/hero_image.png);
+    height: 590px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 63px;
+    margin-bottom: 60px;
   }
 }

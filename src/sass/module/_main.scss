@@ -1,29 +1,48 @@
 main {
-  padding: 0 145px;
-  .works {
+  padding: 0 14%;
+  .works-area {
     text-align: center;
-    .works-tile {
-      display: flex;
-      img {
-      width: 100%;
-      height: auto;
+    .works-box {
+      padding-bottom: 25px;
+      .works-dental {
+        img {
+          width: 100%;
+          height: auto;
+          border: 0.5px solid #6E6E6E;
+        }
+      }
+      .works-cafe {
+        margin: 0 20px;
+        img {
+          width: 100%;
+          height: auto;
+          border: 0.5px solid #6E6E6E;
+        }
+      }
+      .works-hotel {
+        img {
+          width: 100%;
+          height: auto;
+          border: 0.5px solid #6E6E6E;
+        }
       }
     }
   }
+  // .works-main {
+  //   .works-box1 {
+  //     height: 84%;
+  //   }
+  // }
   .about {
+      text-align: center;
     .profile {
-      display: flex;
       .profile-message {
-        width: 50%;
-        margin-right: 50px;
         text-align: center;
         .profile-text {
           margin-top: 15px;
         }
       }
       .profile-image {
-        width: 50%;
-        margin: auto 0;
         img {
           height: 300px;
           width: auto;
@@ -33,23 +52,109 @@ main {
       }
     }
   }
+  .career {
+    .career-area {
+      .timeline {
+        li {
+          overflow: hidden;
+          margin: 0;
+          position: relative;
+          .timeline-date {
+            width: 110px;
+            float: left;
+            margin-top: 20px;
+          }
+          .timeline-content {
+            width: 75%;
+            float: left;
+            border-left: 3px#bbbbbb  solid;
+            padding: 10px 0 10px 30px;
+          }
+          .timeline-content:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background: #fa8383;
+            position: absolute;
+            left: 106px;
+            top: 24px;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
   .skill {
-    .skill-html {
-      img {
-        height: 60px;
-        width: auto;
+    .skill-area{
+      display: flex;
+      .skill-html {
+        width: 30%;
+        img {
+          height: 60px;
+          width: auto;
+          padding: 0% 39% 5% 39%;
+        }
+      }
+      .skill-css {
+        width: 30%;
+        margin: 0 auto;
+        img{
+          height: 70px;
+          width: auto;
+          padding: 0% 37% 5% 37%;
+        }
+      }
+      .skill-js {
+        width: 30%;
+        img {
+          height: 60px;
+          width: auto;
+          padding: 0% 39% 5% 39%;
+        }
       }
     }
-    .skill-css {
-      img{
-        height: 70px;
-        width: auto;
+  }
+}
+
+// PC版
+@media screen and (min-width: 750px) {
+  .wrapper {
+    width: 100%;
+    main {
+      .works-area {
+        .works-box {
+          display: flex;
+        }
+      }
+      .about {
+        .profile {
+          display: flex;
+          .profile-message {
+            width: 50%;
+            margin-right: 50px;
+          }
+          .profile-image {
+            width: 50%;
+            margin: auto 0;
+          }
+        }
       }
     }
-    .skill-js {
-      img {
-        height: 60px;
-        width: auto;
+  }
+}
+
+
+// SP版
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 100%;
+    main {
+      .about {
+        .profile {
+          .profile-message {
+            margin-bottom: 50px;
+          }
+        }
       }
     }
   }

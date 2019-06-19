@@ -3,7 +3,7 @@ body {
   background: #ECECEC;
 }
 
-a {
+* a {
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -43,6 +43,20 @@ a {
   margin-top: 10px;
 }
 
+* h4 {
+  font-size: 16px;
+  color: #6E6E6E;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid #fa8383;
+  padding-bottom: 15px;
+}
+
+* h5 {
+  font-size: 16px;
+  color: #6E6E6E;
+}
+
 * p {
   font-size: 14px;
   color: #6E6E6E;
@@ -67,4 +81,91 @@ a {
 * .btn:hover {
   background: #6E6E6E;
   color: white;
+}
+
+* .ribbon-wrapper {  
+  display: block;
+  position: relative;
+  padding: 10px 22px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #dbdbdb;
+  }
+
+* .ribbon {  
+  display: inline-block;
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  margin: 0;
+  padding: 10px 0 7px;
+  z-index: 2;
+  width: 40px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  background: #fa8383;
+  border-radius: 2px 0 0 0;
+  }
+
+* .ribbon:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: -5px;
+  border: none;
+  border-bottom: solid 6px #d07676;
+  border-right: solid 5px transparent;
+}
+
+* .ribbon:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+  height: 0;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid #fa8383;
+}
+
+* .works-text {
+  position: relative;
+  display: flex;
+  .web-icon {
+    height: 25px;
+    width: 80px;
+    background: #6E6E6E;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+  }
+}
+
+//Worls mainページ
+* .works-tile {
+  height: 350px;
+  width: 100%;
+  background: #6E6E6E;
+  color: #FFFFFF;
+  margin: auto;
+  .bold {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    line-height: 350px;
+  }
+}
+
+* .works-comment {
+  margin: 15px auto 40px auto;
 }
