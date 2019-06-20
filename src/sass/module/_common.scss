@@ -11,7 +11,8 @@ body {
 }
 
 * a:hover {
-  opacity: 0.5;
+  // opacity: 0.5;
+  color: #D1B478;
 }
 
 * h1 {
@@ -133,39 +134,34 @@ body {
 * .works-text {
   position: relative;
   display: flex;
-  .web-icon {
-    height: 25px;
-    width: 80px;
-    background: #6E6E6E;
-    color: #FFFFFF;
-    font-size: 12px;
-    text-align: center;
-    line-height: 25px;
-    border-radius: 10%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 5px;
+    .works-sub-tile {
+      width: 30%;
+    }
   }
-}
 
 //Worls mainページ
 * .works-tile {
-  height: 350px;
+  height: 100%;
   width: 100%;
-  background: #6E6E6E;
+  // background: #6E6E6E;
+  // background-image: url(/img/portfolio_image.png);
   color: #FFFFFF;
   margin: auto;
-  .bold {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    line-height: 350px;
+  img {
+    height: 100%;
+    width: 100%;
   }
+  // .bold {
+  //   color: #FFFFFF;
+  //   font-size: 30px;
+  //   font-weight: bold;
+  //   text-align: center;
+  //   margin: auto;
+  //   line-height: 350px;
+  // }
 }
 
 * .works-comment {
+  text-align: center;
   margin: 15px auto 40px auto;
 }

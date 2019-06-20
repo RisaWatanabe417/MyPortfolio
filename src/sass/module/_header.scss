@@ -11,8 +11,10 @@ header {
     display: flex;
     .header-logo {
       margin: 5px;
-      img {
-        height: 50px;
+      a {
+        img {
+          height: 50px;
+        }
       }
     }
     .header-navi {
@@ -41,7 +43,7 @@ header {
               margin: auto;
               justify-content: center;
               height: 3px;
-              background-color: #fa8383;
+              background-color: #D1B478;
               transition: width 300ms;
               width: 0;
             }

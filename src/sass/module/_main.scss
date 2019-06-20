@@ -1,40 +1,88 @@
 main {
-  padding: 0 14%;
+  // padding: 0 14%;
   .works-area {
     text-align: center;
+    padding: 0 15%;
     .works-box {
       padding-bottom: 25px;
       .works-dental {
-        img {
-          width: 100%;
-          height: auto;
-          border: 0.5px solid #6E6E6E;
-        }
-      }
-      .works-cafe {
-        margin: 0 20px;
-        img {
-          width: 100%;
-          height: auto;
-          border: 0.5px solid #6E6E6E;
+        // width: 30%;
+        .works-text {
+          display: block;
+          .works-sub-tile {
+            width: 100%;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+            .coming-soon {
+              padding: 25% 0;
+            }
+          }
+          .works-title {
+            // margin: 10px auto;
+            display: flex;
+            img {
+              height: 25px;
+              margin-right: 10px;
+            }
+          }
         }
       }
       .works-hotel {
-        img {
-          width: 100%;
-          height: auto;
-          border: 0.5px solid #6E6E6E;
+        // width: 30%;
+        // margin: 0 20px;
+        .works-text {
+          display: block;
+          .works-sub-tile {
+            width: 100%;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+            .coming-soon {
+              padding: 25% 0;
+            }
+          }
+          .works-title {
+            // margin: 10px auto;
+            display: flex;
+            img {
+              height: 25px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+      .works-portfolio {
+        // width: 30%;
+        .works-text {
+          display: block;
+          .works-portfolio-tile {
+            width: 100%;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+            .coming-soon {
+              padding: 25% 0;
+            }
+          }
+          .works-title {
+            // margin: 10px auto;
+            display: flex;
+            img {
+              height: 25px;
+              margin-right: 10px;
+            }
+          }
         }
       }
     }
   }
-  // .works-main {
-  //   .works-box1 {
-  //     height: 84%;
-  //   }
-  // }
   .about {
-      text-align: center;
+    padding: 0 11%;
+    text-align: center;
     .profile {
       .profile-message {
         text-align: center;
@@ -53,7 +101,10 @@ main {
     }
   }
   .career {
+    padding: 0 2%;
     .career-area {
+      margin: 0 auto;
+      display: table;
       .timeline {
         li {
           overflow: hidden;
@@ -85,10 +136,11 @@ main {
     }
   }
   .skill {
+    padding: 0 10%;
     .skill-area{
-      display: flex;
+      // display: flex;
       .skill-html {
-        width: 30%;
+        // width: 30%;
         img {
           height: 60px;
           width: auto;
@@ -96,8 +148,8 @@ main {
         }
       }
       .skill-css {
-        width: 30%;
-        margin: 0 auto;
+        // width: 30%;
+        // margin: 0 auto;
         img{
           height: 70px;
           width: auto;
@@ -105,7 +157,7 @@ main {
         }
       }
       .skill-js {
-        width: 30%;
+        // width: 30%;
         img {
           height: 60px;
           width: auto;
@@ -124,7 +176,35 @@ main {
       .works-area {
         .works-box {
           display: flex;
+          .works-dental {
+            width: 30%;
+            .works-text {
+              .works-title {
+                margin: 10px auto;
+              }
+            }
+          }
+          .works-hotel {
+            width: 30%;
+            margin: 0 20px;
+            .works-text {
+              .works-title {
+                margin: 10px auto;
+              }
+            }
+          }
+          .works-portfolio {
+            width: 30%;
+            .works-text {
+              .works-title {
+                margin: 10px auto;
+              }
+            }
+          }
         }
+      }
+      .works-main {
+        padding: 0 25%;
       }
       .about {
         .profile {
@@ -139,6 +219,21 @@ main {
           }
         }
       }
+      .skill {
+        .skill-area {
+          display: flex;
+          .skill-html {
+            width: 30%;
+          }
+          .skill-css {
+            width: 30%;
+            margin: 0 auto;
+          }
+          .skill-js {
+            width: 30%;
+          }
+        }
+      }
     }
   }
 }
@@ -149,10 +244,56 @@ main {
   .wrapper {
     width: 100%;
     main {
+      .works-area {
+        .works-box {
+          .works-dental {
+            width: 100%;
+            .works-text {
+              .works-title {
+                margin: 10px auto 50px auto;
+              }
+            }
+          }
+          .works-hotel {
+            width: 100%;
+            .works-text {
+              .works-title {
+                margin: 10px auto 50px auto;
+              }
+            }
+          }
+          .works-portfolio {
+            width: 100%;
+            .works-text {
+              .works-title {
+                margin: 10px auto 50px auto;
+              }
+            }
+          }
+        }
+      }
+      .works-main {
+        padding: 0 15%;
+      }
       .about {
         .profile {
           .profile-message {
             margin-bottom: 50px;
+          }
+        }
+      }
+      .skill {
+        .skill-area {
+          .skill-html {
+            width: 100%;
+            margin-bottom: 50px;
+          }
+          .skill-css {
+            width: 100%;
+            margin-bottom: 50px;
+          }
+          .skill-js {
+            width: 100%;
           }
         }
       }

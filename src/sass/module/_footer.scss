@@ -16,6 +16,15 @@ footer {
       }
     }
   }
+  .sns-area {
+    ul {
+      li {
+        a:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
   .copy-area {
     padding: 40px;
     p {
