@@ -1,12 +1,10 @@
 main {
-  // padding: 0 14%;
   .works-area {
     text-align: center;
     padding: 0 15%;
     .works-box {
       padding-bottom: 25px;
       .works-dental {
-        // width: 30%;
         .works-text {
           display: block;
           .works-sub-tile {
@@ -20,7 +18,6 @@ main {
             }
           }
           .works-title {
-            // margin: 10px auto;
             display: flex;
             img {
               height: 25px;
@@ -30,8 +27,6 @@ main {
         }
       }
       .works-hotel {
-        // width: 30%;
-        // margin: 0 20px;
         .works-text {
           display: block;
           .works-sub-tile {
@@ -45,7 +40,6 @@ main {
             }
           }
           .works-title {
-            // margin: 10px auto;
             display: flex;
             img {
               height: 25px;
@@ -55,7 +49,6 @@ main {
         }
       }
       .works-portfolio {
-        // width: 30%;
         .works-text {
           display: block;
           .works-portfolio-tile {
@@ -69,7 +62,6 @@ main {
             }
           }
           .works-title {
-            // margin: 10px auto;
             display: flex;
             img {
               height: 25px;
@@ -138,9 +130,7 @@ main {
   .skill {
     padding: 0 10%;
     .skill-area{
-      // display: flex;
       .skill-html {
-        // width: 30%;
         img {
           height: 60px;
           width: auto;
@@ -148,8 +138,6 @@ main {
         }
       }
       .skill-css {
-        // width: 30%;
-        // margin: 0 auto;
         img{
           height: 70px;
           width: auto;
@@ -157,7 +145,6 @@ main {
         }
       }
       .skill-js {
-        // width: 30%;
         img {
           height: 60px;
           width: auto;
@@ -266,7 +253,7 @@ main {
             width: 100%;
             .works-text {
               .works-title {
-                margin: 10px auto 50px auto;
+                margin: 10px auto 0px auto;
               }
             }
           }
@@ -275,7 +262,7 @@ main {
       .works-main {
         padding: 0 15%;
       }
-      .about {
+      .about-area {
         .profile {
           .profile-message {
             margin-bottom: 50px;

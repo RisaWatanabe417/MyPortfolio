@@ -1,3 +1,4 @@
+//共通
 body {
   font-family: '游ゴシック',YuGothic,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,sans-serif;
   background: #ECECEC;
@@ -11,7 +12,6 @@ body {
 }
 
 * a:hover {
-  // opacity: 0.5;
   color: #D1B478;
 }
 
@@ -143,22 +143,12 @@ body {
 * .works-tile {
   height: 100%;
   width: 100%;
-  // background: #6E6E6E;
-  // background-image: url(/img/portfolio_image.png);
   color: #FFFFFF;
   margin: auto;
   img {
     height: 100%;
     width: 100%;
   }
-  // .bold {
-  //   color: #FFFFFF;
-  //   font-size: 30px;
-  //   font-weight: bold;
-  //   text-align: center;
-  //   margin: auto;
-  //   line-height: 350px;
-  // }
 }
 
 * .works-comment {
